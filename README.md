@@ -1,2 +1,26 @@
 # TIL
 - 오늘 공부한 내용을 남김...
+- git 기초 코드들
+    - 리눅스 커맨드
+        - cd .. 이전 디렉토리로 이동
+        - cd . 현재폴더
+        - mv filename 디렉토리 디렉토리로 이동
+        - mv filename 디렉토리orfilename 디렉터리 없으면 파일이름 변경
+        - rm filename 파일 지우기
+        - ls (-a) 디렉토리 파일 및 폴더 확인 -a는 숨긴폴더 포함
+        - pwd 현재 경로 확인
+        - touch 파일이름 파일생성
+        - mkdir 폴더이름 폴더생성
+
+    - 깃 커맨드
+        - git init: 현재 디렉토리에 깃 사용 준비 (내부 .git 폴더 확인됨)
+        - git config --global user.name "이름": 사용자이름변경
+        - got config --global user.email: "이메일" 이메일 변경
+        - git add 파일이름: 스테이지로 옮김
+        - git commit -m "이력 이름": 변경내용 깃 기록
+        - git log (--oneline): 변경이력 확인 원라인하면 한줄로만 간단히 출력 (탈출시 q)
+        - git status: 현재 상태확인 커밋할게있나? 아님 커밋전인가?
+        - git commit: bin 파일 접속, 최상단에 이력입력후 :wq로 탈출
+        - git remote add origin "git 레파지토리 url": 접속할 깃레파지토리 추가
+        - git remote -v: 접속하는 정보 확인
+        - git push origin master: 저장한 파일 깃허브에 올리 올리기
