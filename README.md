@@ -24,3 +24,12 @@
         - git remote add origin "git 레파지토리 url": 접속할 깃레파지토리 추가
         - git remote -v: 접속하는 정보 확인
         - git push origin master: 저장한 파일 깃허브에 올리 올리기
+    - 협업
+        - 레포 fork
+        - clone to local
+        - add remote ( git remote add upstream https://github.com/example... )
+        - open vs code, creat git branch by git branch command
+        - move to created branch by switch command
+        - add - commit - branch (push origin branch name
+        - go to github press pull request
+        
