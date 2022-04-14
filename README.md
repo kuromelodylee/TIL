@@ -32,4 +32,4 @@
         - move to created branch by switch command
         - add - commit - branch (push origin branch name
         - go to github press pull request
-        
+        = if accepted, switch to master and pull update (pull upstream master)
